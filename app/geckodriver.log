@@ -737,3 +737,387 @@ JavaScript error: , line 0: uncaught exception: undefined
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1634589302603	geckodriver	INFO	Listening on 127.0.0.1:59387
+1634589302608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41163" "-no-remote" "-profile" "/tmp/rust_mozprofilezXgFQf"
+1634589303637	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezXgFQf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41163/devtools/browser/dec3b1aa-765e-4f47-ba13-9020371ffdd8
+1634589305303	Marionette	INFO	Listening on port 33353
+1634589305355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+1634589329563	Marionette	INFO	Stopped listening on port 33353
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634589335295	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1634591621937	geckodriver	INFO	Listening on 127.0.0.1:56661
+1634591621944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40149" "-no-remote" "-profile" "/tmp/rust_mozprofile6A5SGb"
+1634591622689	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6A5SGb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40149/devtools/browser/7b67764c-d3f8-4389-9192-ac4bea601482
+1634591624220	Marionette	INFO	Listening on port 39331
+1634591624275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634591656806	Marionette	INFO	Stopped listening on port 39331
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634591701633	geckodriver	INFO	Listening on 127.0.0.1:36967
+1634591701639	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37633" "-no-remote" "-profile" "/tmp/rust_mozprofilePrIjYX"
+1634591702374	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePrIjYX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37633/devtools/browser/4919a09f-d8af-4ae9-bcb0-909c26d92c4b
+1634591703868	Marionette	INFO	Listening on port 46169
+1634591703962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: undefined
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+1634591728120	Marionette	INFO	Stopped listening on port 46169
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634592057604	geckodriver	INFO	Listening on 127.0.0.1:46817
+1634592057612	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51211" "-no-remote" "-profile" "/tmp/rust_mozprofileRKwgWS"
+1634592058350	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRKwgWS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51211/devtools/browser/c4214e92-8eed-464c-8908-792790838f7d
+1634592059884	Marionette	INFO	Listening on port 34091
+1634592059940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: undefined
+1634592077279	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634593172381	Marionette	INFO	Stopped listening on port 34091
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1634593205957	geckodriver	INFO	Listening on 127.0.0.1:48709
+1634593205964	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33873" "-no-remote" "-profile" "/tmp/rust_mozprofileKXdEwR"
+1634593206793	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKXdEwR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33873/devtools/browser/ec289792-c11f-471c-bb95-a7a47cb475e8
+1634593208259	Marionette	INFO	Listening on port 44671
+1634593208311	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1634593232078	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: undefined
+1634593319688	Marionette	INFO	Stopped listening on port 44671
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634593405881	geckodriver	INFO	Listening on 127.0.0.1:38345
+1634593405889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56473" "-no-remote" "-profile" "/tmp/rust_mozprofileG06z7n"
+1634593406637	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileG06z7n/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56473/devtools/browser/c124a54c-63e5-443c-9628-019dfac951b7
+1634593408226	Marionette	INFO	Listening on port 43811
+1634593408335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634594092888	geckodriver	INFO	Listening on 127.0.0.1:42703
+1634594092895	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54357" "-no-remote" "-profile" "/tmp/rust_mozprofilehh1gse"
+1634594093649	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehh1gse/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54357/devtools/browser/3fd6cea7-35a1-4414-bf77-bf9aba2bf22f
+1634594095232	Marionette	INFO	Listening on port 45339
+1634594095352	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634594266915	geckodriver	INFO	Listening on 127.0.0.1:36881
+1634594266922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59345" "-no-remote" "-profile" "/tmp/rust_mozprofileUo8NKh"
+1634594267673	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUo8NKh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59345/devtools/browser/0958cec9-566e-459e-ac03-14009f2d70f7
+1634594269256	Marionette	INFO	Listening on port 35773
+1634594269373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634597192110	geckodriver	INFO	Listening on 127.0.0.1:53945
+1634597192534	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39169" "-no-remote" "-profile" "/tmp/rust_mozprofilellwlti"
+1634597193446	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilellwlti/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39169/devtools/browser/dccda2b5-1b1b-4fa6-a0d2-1448d841a35f
+1634597195366	Marionette	INFO	Listening on port 39293
+1634597195494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1634597201555	Marionette	INFO	Stopped listening on port 39293
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634597213927	geckodriver	INFO	Listening on 127.0.0.1:49771
+1634597213936	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40461" "-no-remote" "-profile" "/tmp/rust_mozprofileD0C7Rz"
+1634597214761	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileD0C7Rz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40461/devtools/browser/fbbb2b06-cd9f-484f-adaa-03ec23bd0c80
+1634597216555	Marionette	INFO	Listening on port 44987
+1634597216662	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634597461319	geckodriver	INFO	Listening on 127.0.0.1:33135
+1634597461325	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46937" "-no-remote" "-profile" "/tmp/rust_mozprofilelV691E"
+1634597462099	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelV691E/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46937/devtools/browser/f61ae46c-1f02-42c7-8d61-6f90f58007f3
+1634597463659	Marionette	INFO	Listening on port 37745
+1634597463750	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: undefined
+1634597479372	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634598036124	geckodriver	INFO	Listening on 127.0.0.1:54641
+1634598036131	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58047" "-no-remote" "-profile" "/tmp/rust_mozprofileAGXIjt"
+1634598036908	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAGXIjt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58047/devtools/browser/67dc3917-446b-4e23-818b-57e3ba4b83ac
+1634598038445	Marionette	INFO	Listening on port 39389
+1634598038554	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: undefined
+1634598068604	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1634598090190	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634599096609	geckodriver	INFO	Listening on 127.0.0.1:47463
+1634599096617	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40713" "-no-remote" "-profile" "/tmp/rust_mozprofileNorKyT"
+1634599097384	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNorKyT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40713/devtools/browser/1371136a-c09a-4d2b-8700-a30aaa5e4f0c
+1634599098962	Marionette	INFO	Listening on port 41869
+1634599099041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: undefined
+1634599116111	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1634599229594	Marionette	INFO	Stopped listening on port 41869
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634599248084	geckodriver	INFO	Listening on 127.0.0.1:50767
+1634599248091	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51371" "-no-remote" "-profile" "/tmp/rust_mozprofileJ5zjCL"
+1634599248862	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJ5zjCL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51371/devtools/browser/c6fe3603-f40a-42c2-9146-f5a2f3fabbd5
+1634599250531	Marionette	INFO	Listening on port 44807
+1634599250615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: undefined
+1634599268408	Marionette	INFO	Stopped listening on port 39389
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634599828665	geckodriver	INFO	Listening on 127.0.0.1:35935
+1634599828671	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46573" "-no-remote" "-profile" "/tmp/rust_mozprofileqdkMrx"
+1634599829441	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqdkMrx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46573/devtools/browser/9bf31c88-114f-48ad-92a4-a0bcb532c22c
+1634599831103	Marionette	INFO	Listening on port 34387
+1634599831223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: undefined
+1634599867141	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.error: "Error while calling actor 'domnode's method 'getImageData'" "CanvasRenderingContext2D.drawImage: Passed-in image is \"broken\""
+console.error: ({})
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634601066916	geckodriver	INFO	Listening on 127.0.0.1:38863
+1634601067417	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38891" "-no-remote" "-profile" "/tmp/rust_mozprofileB0KFT8"
+1634601068221	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileB0KFT8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38891/devtools/browser/72158e69-46c7-4de3-a6e7-6c130fa39de2
+1634601069781	Marionette	INFO	Listening on port 36073
+1634601069859	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1634601071892	Marionette	INFO	Stopped listening on port 36073
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634601073934	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1634601885623	geckodriver	INFO	Listening on 127.0.0.1:55133
+1634601885630	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35333" "-no-remote" "-profile" "/tmp/rust_mozprofileefFgFy"
+1634601886400	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileefFgFy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35333/devtools/browser/38366645-6718-477c-9be0-3a567646b6f2
+1634601888076	Marionette	INFO	Listening on port 35013
+1634601888164	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: undefined
+1634601906555	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1634601996475	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1634602052301	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.instagram.com/static/bundles/es6/oz-player.main.js/80390ebefc5b.js, line 29: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: NS_ERROR_FAILURE (0x80004005) - virtual mozilla::MediaResult mozilla::MP4ContainerParser::IsInitSegmentPresent(const mozilla::MediaSpan &): Invalid Top-Level Box:�D6
+JavaScript warning: https://www.instagram.com/static/bundles/es6/oz-player.main.js/80390ebefc5b.js, line 29: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: NS_ERROR_FAILURE (0x80004005) - virtual mozilla::MediaResult mozilla::MP4ContainerParser::IsInitSegmentPresent(const mozilla::MediaSpan &): Invalid Top-Level Box:�D6
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/12d33da7da31.js, line 42: OZ_SOURCE_BUFFER: An attempt was made to use an object that is not, or is no longer, usable
+1634602082028	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerUICommons.js/7e6892ba1891.js, line 33: Error: Got unexpected null or undefined
+JavaScript error: https://www.fbsbx.com/captcha/recaptcha/iframe/?compact=0&referer=https%3A%2F%2Fwww.instagram.com&locale=en_US&__cci=ig_captcha_iframe, line 5: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.fbsbx.com/captcha/recaptcha/iframe/?compact=0&referer=https%3A%2F%2Fwww.instagram.com&locale=en_US&__cci=ig_captcha_iframe, line 10: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.fbsbx.com/captcha/recaptcha/iframe/?compact=0&referer=https%3A%2F%2Fwww.instagram.com&locale=en_US&__cci=ig_captcha_iframe, line 11: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.fbsbx.com/captcha/recaptcha/iframe/?compact=0&referer=https%3A%2F%2Fwww.instagram.com&locale=en_US&__cci=ig_captcha_iframe, line 12: ReferenceError: requireLazy is not defined
+1634602238918	Marionette	INFO	Stopped listening on port 35013
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
